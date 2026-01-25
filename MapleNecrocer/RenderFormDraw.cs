@@ -27,6 +27,8 @@ public class RenderFormDraw : MonoGameControl
     public RenderFormDraw()
     {
         Instance = this;
+
+        this.GraphicsProfile = GraphicsProfile.HiDef;
     }
     public static RenderFormDraw Instance;
 
